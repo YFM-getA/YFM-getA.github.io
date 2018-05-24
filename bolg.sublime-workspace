@@ -463,6 +463,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "html/gis/index.html",
+			"settings":
+			{
+				"buffer_size": 185,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/gis/demo_0.html",
+			"settings":
+			{
+				"buffer_size": 108,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -533,10 +551,16 @@
 	},
 	"expanded_folders":
 	[
-		"/E/codeG/htmlG/blog"
+		"/E/codeG/htmlG/blog",
+		"/E/codeG/htmlG/blog/html",
+		"/E/codeG/htmlG/blog/html/gis"
 	],
 	"file_history":
 	[
+		"/E/codeG/htmlG/blog/index.html",
+		"/E/codeG/htmlG/blog/gis/index.html",
+		"/E/codeG/htmlG/blog/js/main.js",
+		"/E/codeG/htmlG/blog/params.json",
 		"/E/codeG/htmlG/magicCube/project.sublime-project",
 		"/E/codeG/htmlG/magicCube/金阁寺.html",
 		"/E/codeG/htmlG/magicCube/js/1.js",
@@ -660,11 +684,7 @@
 		"/C/Users/MYL/Desktop/SystemOut.log",
 		"/C/Users/MYL/Desktop/server1_exception.log",
 		"/C/Users/MYL/Desktop/index.jsp",
-		"/D/Work/Primeton/Platform_0/apache-tomcat-5.5.20/webapps/default/WEB-INF/_srv/config/wfsys-config.xml",
-		"/D/Work/Primeton/Platform_0/apache-tomcat-5.5.20/webapps/default/WEB-INF/_srv/config/handler-web.xml",
-		"/D/Work/Primeton/Platform_0/apache-tomcat-5.5.20/webapps/default/WEB-INF/_srv/config/handler-startup.xml",
-		"/C/Users/MYL/Desktop/index.html",
-		"/D/Work/Primeton/Platform_0/apache-tomcat-5.5.20/webapps/default/WEB-INF/_srv/config/spring.xml"
+		"/D/Work/Primeton/Platform_0/apache-tomcat-5.5.20/webapps/default/WEB-INF/_srv/config/wfsys-config.xml"
 	],
 	"find":
 	{
@@ -706,8 +726,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "html/gis/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/gis/demo_0.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -717,7 +794,7 @@
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 39.0
 	},
 	"layout":
 	{
