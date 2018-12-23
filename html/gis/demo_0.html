@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title></title>
+  <meta charset="utf-8">
+  <title>Simple Map Load</title>
+  <link rel="stylesheet" href="../../css/ol.css" type="text/css">
+  <style>
+  .map {
+    height: 400px;
+    width: 100%;
+  }
+</style>
+<script src="../../js/ol.js"></script>
 </head>
 <body>
-
+ <h2>My Map</h2>
+ <div id="map" class="map"></div>
+ <script type="text/javascript">
+  var map = new ol.Map({
+    target: 'map',    layers: [
+    new ol.layer.Tile({
+      source: new ol.source.OSM()
+    })
+    ],
+    view: new ol.View({
+      // 经纬度
+      center: ol.proj.fromLonLat([116.41, 33.82]),
+      zoom: 4
+    })
+  });
+  map.events.register('click', map, function(e) {
+    
+  });
+</script>
 </body>
 </html>
